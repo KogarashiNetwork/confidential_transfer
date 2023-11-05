@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "confidential_transfer",
+    "encrypted_balance",
+    "plonk",
+    "zkrollup",
+]
