@@ -1136,6 +1136,31 @@ dependencies = [
 ]
 
 [[package]]
+name = "kogarashi-network-pallets"
+version = "0.1.0"
+dependencies = [
+ "confidential_transfer",
+ "ec-pairing",
+ "frame-support",
+ "frame-system",
+ "jub-jub 0.0.20",
+ "pallet-encrypted-balance",
+ "pallet-plonk",
+ "pallet-zkrollup",
+ "parity-scale-codec",
+ "rand 0.8.5",
+ "rand_core 0.6.4",
+ "serde",
+ "she-elgamal",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "zkplonk",
+ "zksnarks",
+ "zkstd 0.0.22",
+]
+
+[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
